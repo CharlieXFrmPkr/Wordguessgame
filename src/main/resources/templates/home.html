@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Finder</title>
+    <link rel="stylesheet" th:href="@{/style.css}" />
+    <link  th:href="@{css/bootstrap.min.css}" rel="stylesheet" >
+</head>
+<body>
+<div th:replace="navbar"></div>
+
+<div class="container">
+    <div class="about-area row col-md-12">
+        <div class="right-area col-md-6">
+
+            <h1 class="bold-goldenrod">Guess The Word And Get Rewards</h1>
+            <p class="bold-goldenrod">Let's Check Your Vocab</p>
+
+            <a href="/signup"><button class="theme-buuton btn btn-primary">Create Account</button></a>
+            <a href="/login"><button class="theme-buuton btn btn-primary">Play Now</button></a>
+
+
+        </div>
+
+        <div class="col-md-6">
+            <img class="left-image img-fluid" th:src="@{/logo.jpg}">
+        </div>
+    </div>
+</div>
+
+<div th:replace="footer"></div>
+
+<script th:href="@{js/bootstrap.bundle.min.js}" ></script>
+
+</body>
+</html>

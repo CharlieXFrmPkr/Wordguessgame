@@ -1,0 +1,194 @@
+.left-image{
+padding-top:50px;
+}
+body {
+    font-family: 'Signika', sans-serif;
+    background-image: url('bggg.jpg'); /* Add your background image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background in place when scrolling */
+}
+
+.theme-buuton{
+padding:10px 40px!important;
+background:black!important;
+color:white!important;
+border:0px!important;
+border-radius:0px!important;
+font-size:20px!important;
+margin-top:30px;
+}
+.theme-buuton:hover{
+color:grey!important;
+}
+.right-area h1 {
+padding-top:100px;
+}
+
+.about-area {
+min-height:500px;
+}
+
+
+.game-area{
+min-height:500px;
+}
+
+.word_image{
+max-height:500px;
+}
+.bold-goldenrod {
+    font-weight: bold;
+    color: black;
+}
+/* Custom styles for the navbar */
+        .navbar {
+            background-color: black;
+        }
+
+        .navbar .navbar-brand,
+        .navbar .nav-link {
+            color: white !important; /* Ensure all links are white */
+        }
+
+        /* Ensure active links remain white */
+        .navbar .nav-link.active {
+            color: white !important;
+            background-color: black !important;
+        }
+
+        .navbar .nav-link:hover {
+            color: gray !important; /* Optional: Hover effect for links */
+        }
+/* Footer Area */
+
+body {
+    font-family: 'Signika', sans-serif;
+}
+
+.bg-dark-grey {
+    background: #1a1a1a; /* Dark grey background for the footer */
+}
+
+footer {
+    color: #f5f5f5; /* Light grey text for readability */
+    padding: 40px 0; /* Added padding to the footer for more space */
+}
+
+footer p, a {
+    font-size: 14px; /* Slightly increased font size for better readability */
+    font-family: 'Roboto', sans-serif;
+    color: #d3d3d3; /* Lighter grey for links and text */
+    margin-bottom: 10px; /* Added margin to separate paragraphs and links */
+}
+
+footer h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px; /* Reduced the margin to improve vertical spacing */
+    position: relative;
+    color: #f5f5f5;
+}
+
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: #777;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -15px; /* Reduced space under the title */
+}
+
+.btn-footer {
+    color: #d3d3d3;
+    text-decoration: none;
+    border: 1px solid #777; /* Grey border */
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    background: #292929; /* Dark background for the button */
+    margin-top: 10px; /* Added margin between buttons */
+}
+
+.btn-footer:hover {
+    color: #ffffff;
+    background: #444;
+    text-decoration: none;
+}
+
+.form-footer input[type="text"] {
+    border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+    background: #3c3c3c;
+    color: #fff;
+    margin-bottom: 15px; /* Added space under the input field */
+}
+
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+    color: #bbb; /* Placeholder color */
+}
+
+.form-footer input[type="button"] {
+    border: none;
+    background: #232323;
+    margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+
+.social .fa {
+    color: #f5f5f5;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+    margin-right: 10px; /* Added spacing between social icons */
+}
+
+footer ul li {
+    list-style: none;
+    display: block;
+    margin-bottom: 8px; /* Added spacing between list items */
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+}
+
+.logo-part {
+    border-right: 1px solid #777;
+    height: 100%;
+    padding-right: 20px; /* Added padding to separate the logo section */
+}
+
+.container {
+    max-width: 1200px; /* Restricted the container width for better layout */
+    margin: 0 auto;
+}
+
+.row > div {
+    margin-bottom: 30px; /* Added spacing between footer columns */
+}
+
+.col-md-6 {
+    padding: 0 20px; /* Added padding between the columns to avoid congestion */
+}
+
+
+/* Footer Area */
